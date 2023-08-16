@@ -4,7 +4,7 @@
 oldmode = mode();      mode(-1);
 oldlines = lines()(2); lines(0);
 try
-    exec(get_absolute_file_path("loader.sce")+"etc\"+"CHE3007S_data_science_toolbox.start");
+    exec(get_absolute_file_path("loader.sce")+"etc\"+"CHE3007S.start");
 catch
     [errmsg, tmp, nline, func] = lasterror()
     msg = "%s: error on line #%d: ""%s""\n"

@@ -4,7 +4,7 @@
 
 function quitModule()
 
-    etc_tlbx  = get_absolute_file_path("CHE3007S_data_science_toolbox.quit");
+    etc_tlbx  = get_absolute_file_path("CHE3007S.quit");
     etc_tlbx  = getshortpathname(etc_tlbx);
     root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
 
