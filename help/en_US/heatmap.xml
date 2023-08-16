@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from heatmap.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="heatmap" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>heatmap</refname>
+    <refpurpose>Function to plot a colour encoded matrix as a heatmap</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   heatmap(data)
+   heatmap(data, num_points)
+   heatmap(data, num_points, colormap)
+   heatmap(data, num_points, colormap, [c_min c_max])
+   heatmap(data, num_points, colormap, [c_min c_max], annot)
+   heatmap(data, num_points, colormap, [c_min c_max], annot, mask)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>num_points:</term>
+            <listitem><para>  Number of points for the colormap/colorbar</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>colormap:</term>
+            <listitem><para>    Provide a colormap function to use to generate a colormap</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>c_min:</term>
+            <listitem><para>       Minimum value for colormap</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>c_max:</term>
+            <listitem><para>       Maximum value for colormap</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>annot:</term>
+            <listitem><para>       Annotation of values on graph, %t or %f</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>mask:</term>
+            <listitem><para>        A mask matrix of ones and zeros to apply to the data, where 1 indicates data to be plotted, and 0 indicates data to be ignored</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

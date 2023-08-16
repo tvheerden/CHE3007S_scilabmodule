@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from find_indices.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="find_indices" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>find_indices</refname>
+    <refpurpose>A function to find the indices of one matrix within another. The results will return the indices within the "header" vector where the values within "columns" were located.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   ind = find_indices(header, columns)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>header:</term>
+            <listitem><para> a string vector of header labels</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>columns:</term>
+            <listitem><para> a vector of column labels to find within the header matrix</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>ind:</term>
+            <listitem><para>     indices within the header data where the columns vector was found</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

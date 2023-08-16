@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from histogram.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="histogram" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>histogram</refname>
+    <refpurpose>A function to plot a histogram with data split into different categories</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   histogram(header, data, sheader, sdata, category, column)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>header:</term>
+            <listitem><para>  m x 1 vector of headers for numeric data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para>    n x m matrix of numeric data, with matrix of column vectors</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sheader:</term>
+            <listitem><para> p x 1 matrix of corresponding headers for string/text data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sdata:</term>
+            <listitem><para>   n x p matrix of string/text data with data as column vectors</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>category:</term>
+            <listitem><para>     label of field on which to split the data into different groups and colours for plotting</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>column:</term>
+            <listitem><para>  string label for column or index</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

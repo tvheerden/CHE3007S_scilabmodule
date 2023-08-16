@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from che_boxplot.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="che_boxplot" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>che_boxplot</refname>
+    <refpurpose>Draw a box-and-whiskers plot for data provided as column vectors.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   che_boxplot(y1[,y2,...])
+   che_boxplot(y1[,y2,...], G)
+   che_boxplot(Y_list)
+   che_boxplot(y1[,y2,...], G, orientation)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>y1,y2,... :</term>
+            <listitem><para> vectors and/or matrixes with data as column vectors (of varying length)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>G:</term>
+            <listitem><para> string vector defines the column by strings</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Y_list :</term>
+            <listitem><para> list of vectors and/or matrixes with data as column vectors (of varying length)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>orientation:</term>
+            <listitem><para> Orientation to plot the diagrams, forizontal or vertical, 'h' or 'v'</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+A boxplot (also known as a box-and-whisker plot is a way of
+graphically depicting groups of numerical data through their five-number summaries
+(the smallest observation, lower quartile (Q1), median, upper quartile (Q3), and
+largest observation). A boxplot may also indicate which observations, if any,
+might be considered outliers. The boxplot was invented in 1977 by the
+American statistician John Tukey.
+   </para>
+   <para>
+For each data series a box is drawn to indicate the position of the lower and upper
+quartile of the data. The box has a centre line indicating the median of the data.
+Straigh center lines (the whiskers) above and below the box indicates the
+maximum and minimum values in the data set (except for outliers).
+Outliers are defined as any points larger than Q3 + 1.5*IQR or lower then
+Q1 - 1.5*IQR, where IQR is the inter quartile range defined as IQR=Q3-Q1.
+Outliers are plotted as individual '*'.
+   </para>
+   <para>
+Boxplots can be useful to display differences between populations without making
+any assumptions of the underlying statistical distribution. The spacings between
+the different parts of the box help indicate the degree of dispersion (spread) and
+skewness in the data, and identify outliers.
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+nan_boxplot([rand(10,5);5*rand(5,5)-2.5])
+nan_boxplot() // demo and help
+
+   ]]></programlisting>
+</refsection>
+
+<refsection>
+   <title>Bibliography</title>
+   <para>http://en.wikipedia.org/wiki/Box_plot</para>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>T. Pettersen (2008)</member>
+   <member>Adapted by</member>
+   <member>Dominic de Oliveira (2023)</member>
+   <member>Tracey van Heerden (2023)</member>
+   </simplelist>
+</refsection>
+</refentry>

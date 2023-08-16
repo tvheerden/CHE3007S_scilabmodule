@@ -1,0 +1,89 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ingestCSV</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="histogram.html">&lt;&lt; histogram</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_48867305b02a6b815dc2c7d0d9474fb2.html">CHE3007S_data_science_toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="interpolatedfill.html">interpolatedfill &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path" dir="ltr"><a href="index.html">CHE3007S_data_science_toolbox</a> &gt;&gt; <a href="section_48867305b02a6b815dc2c7d0d9474fb2.html">CHE3007S_data_science_toolbox</a> &gt; ingestCSV</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">ingestCSV</h1>
+    <p class="refpurpose">Utility function for ingesting and splitting csv data.</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Syntax</h3>
+   <div class="synopsis"><pre><span class="default">[</span><span class="default">header</span><span class="default">, </span><span class="default">data</span><span class="default">, </span><span class="default">sheader</span><span class="default">, </span><span class="default">sdata</span><span class="default">] = </span><span class="functionid">ingestCSV</span><span class="default">(</span><span class="default">file_name</span><span class="default">, </span><span class="default">header_rows</span><span class="default">)</span>
+<span class="default">[</span><span class="default">header</span><span class="default">, </span><span class="default">data</span><span class="default">, </span><span class="default">sheader</span><span class="default">, </span><span class="default">sdata</span><span class="default">] = </span><span class="functionid">ingestCSV</span><span class="default">(</span><span class="default">file_name</span><span class="default">, </span><span class="default">header_rows</span><span class="default">, </span><span class="default">datetime_col</span><span class="default">)</span>
+<span class="default">[</span><span class="default">header</span><span class="default">, </span><span class="default">data</span><span class="default">, </span><span class="default">sheader</span><span class="default">, </span><span class="default">sdata</span><span class="default">] = </span><span class="functionid">ingestCSV</span><span class="default">(</span><span class="default">file_name</span><span class="default">, </span><span class="default">header_rows</span><span class="default">, </span><span class="default">datetime_col</span><span class="default">, </span><span class="default">datetime_separators</span><span class="default">)</span>
+<span class="default">[</span><span class="default">header</span><span class="default">, </span><span class="default">data</span><span class="default">, </span><span class="default">sheader</span><span class="default">, </span><span class="default">sdata</span><span class="default">] = </span><span class="functionid">ingestCSV</span><span class="default">(</span><span class="default">file_name</span><span class="default">, </span><span class="default">header_rows</span><span class="default">, </span><span class="default">datetime_col</span><span class="default">, </span><span class="default">datetime_separators</span><span class="default">, </span><span class="default">separator</span><span class="default">)</span>
+<span class="default">[</span><span class="default">header</span><span class="default">, </span><span class="default">data</span><span class="default">, </span><span class="default">sheader</span><span class="default">, </span><span class="default">sdata</span><span class="default">] = </span><span class="functionid">ingestCSV</span><span class="default">(</span><span class="default">file_name</span><span class="default">, </span><span class="default">header_rows</span><span class="default">, </span><span class="default">datetime_col</span><span class="default">, </span><span class="default">datetime_separators</span><span class="default">, </span><span class="default">separator</span><span class="default">, </span><span class="default">decimal</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">header:</span>
+            <dd><p class="para">1 x m vector of strings, header of each column of data in the data matrix</p></dd></dt>
+        <dt><span class="term">data:</span>
+            <dd><p class="para">n x m matrix of values, each column corresponds to a header</p></dd></dt>
+        <dt><span class="term">sheader:</span>
+            <dd><p class="para">1 x k vector of strings, header of each column of data in the string data matrix</p></dd></dt>
+        <dt><span class="term">data:</span>
+            <dd><p class="para">n x k matrix of string formatted data/labels/tags, each column corresponds to a header in the sheader vector</p></dd></dt>
+        <dt><span class="term">file_name:</span>
+            <dd><p class="para">a string variable pointing to the location of the csv to be ingested</p></dd></dt>
+        <dt><span class="term">header_rows:</span>
+            <dd><p class="para">an integer, number of rows at beginning of csv that contain header data</p></dd></dt>
+        <dt><span class="term">datetime_col:</span>
+            <dd><p class="para">an integer, points to the column number that contains datetime data in the csv</p></dd></dt>
+        <dt><span class="term">datetime_separators:</span>
+            <dd><p class="para">a vector of strings, the separators to be used for splitting the datetime data into year, month, day, etc</p></dd></dt>
+        <dt><span class="term">separator:</span>
+            <dd><p class="para">a string variable, the separator used in the csv (default [] is &#0039;,&#0039;)</p></dd></dt>
+        <dt><span class="term">decimal:</span>
+            <dd><p class="para">a string variable, the symbol representing the decimal in the csv data (default [] is &#0039;.&#0039;)</p></dd></dt></dl></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="histogram.html">&lt;&lt; histogram</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_48867305b02a6b815dc2c7d0d9474fb2.html">CHE3007S_data_science_toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="interpolatedfill.html">interpolatedfill &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

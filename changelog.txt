@@ -1,0 +1,10 @@
+changelog of the CHE3007S_data_science_toolbox
+
+CHE3007S_data_science_toolbox (0.1.0)
+    * Module created
+ -- Tracey van Heerden <vanheerden.tracey@gmail.com>  Mon, 17 July 2023
+
+CHE3007S_data_science_toolbox (0.2.0)
+    * Added help files
+    * Additional functions included
+ -- Tracey van Heerden <vanheerden.tracey@gmail.com>  Wed, 16 August 2023

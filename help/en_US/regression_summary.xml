@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from regression_summary.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="regression_summary" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>regression_summary</refname>
+    <refpurpose>function to display key statistics of linear regression result</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   regression_summary(Y, X, Y_header, X_header)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>Y:</term>
+            <listitem><para> n x 1 vector, the output data we are attempting to fit</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>X:</term>
+            <listitem><para> n x m matrix, the input parameters</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Y_header:</term>
+            <listitem><para> string, descriptive label of Y data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>X_header:</term>
+            <listitem><para> 1 x m vector of strings, descriptive labels of input parameters</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

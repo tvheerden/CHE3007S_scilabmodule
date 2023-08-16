@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from downsample.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="downsample" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>downsample</refname>
+    <refpurpose>Short description on the first line following the function header.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [dsdata, dsdates] = downsample(data,YMDHms, frequency, method)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>dsdata:</term>
+            <listitem><para> n x m matrix of values, downsampled data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>dsdatetime:</term>
+            <listitem><para> n x 1 vector of values, downsampled</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para> the z parameter   // separated by ":".</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>datetime:</term>
+            <listitem><para> N x 1 vector of strings, date and time data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>separators:</term>
+            <listitem><para> row vector of strings, separators required for splitting datetime</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>frequency:</term>
+            <listitem><para> string value, downsampling frequency. Options are minutely, hourly, daily, monthly, annually. Or supply frequency as a vector of values in the format [Years Months Days Hours Minutes Seconds].</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>method:</term>
+            <listitem><para> string variable, mean or median</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

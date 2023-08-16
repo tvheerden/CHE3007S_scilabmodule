@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from jointplot.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="jointplot" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>jointplot</refname>
+    <refpurpose>Function to plot a colour encoded matrix as a heatmap</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   jointplot(header, data, x, y)
+   jointplot(header, data, x, y, sheader, sdata, hue)
+   jointplot(header, data, x, y, sheader, sdata, hue, hue_bin)
+   jointplot(header, data, x, y, sheader, sdata, hue, hue_bin, n_points)
+   jointplot(header, data, x, y, sheader, sdata, hue, hue_bin, n_points, dist_type)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>header:</term>
+            <listitem><para>  m x 1 vector of headers for numeric data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para>    n x m matrix of numeric data, with matrix of column vectors</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>x:</term>
+            <listitem><para>       column number or column name to be plotted on x axis</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>y:</term>
+            <listitem><para>       column number or column name to be plotted pn y axis</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sheader:</term>
+            <listitem><para> p x 1 matrix of corresponding headers for string/text data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sdata:</term>
+            <listitem><para>   n x p matrix of string/text data with data as column vectors</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>hue:</term>
+            <listitem><para>     label of field on which to split the data into different groups and colours for plotting</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>hue_bin:</term>
+            <listitem><para> if hue column is corresponding to a numeric field, this is the the number of bins to split the data into linearly over range, the default for this is 5.</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>n_points:</term>
+            <listitem><para>    number of point for colormap/colorbar, default is 10000</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>dist_type:</term>
+            <listitem><para>   distribution type for the plot, 'kde' or 'hist'. The default value is 'hist', for a histogram plot</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

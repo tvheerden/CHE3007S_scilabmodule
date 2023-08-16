@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from train_test_split.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="train_test_split" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>train_test_split</refname>
+    <refpurpose>Function to split data into subsets, for testing and training data</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [x_train, x_test, y_train, y_test] = train_test_split(x, y)
+   [x_train, x_test, y_train, y_test] = train_test_split(x, y, test_size)
+   [x_train, x_test, y_train, y_test] = train_test_split(x, y, test_size, shuffle)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>x:</term>
+            <listitem><para>   x data to be split</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>y:</term>
+            <listitem><para>   y data to be split</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>test_size:</term>
+            <listitem><para>   The fraction of data to be split into test data, or number of data points to split into training data. The default value is 0.25.</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>shuffle:</term>
+            <listitem><para> A True/False value to shuffle the data or provide it in linear order. %t is the default value</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>x_train:</term>
+            <listitem><para> Split training x data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>x_test:</term>
+            <listitem><para>  Split testing x data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>y_train:</term>
+            <listitem><para> Split training y data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>y_test:</term>
+            <listitem><para>  Split testing y data</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>
