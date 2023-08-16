@@ -1,0 +1,88 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>group_by</title>
+    <style type="text/css" media="all">
+      @import url("scilab_code.css");
+      @import url("xml_code.css");
+      @import url("c_code.css");
+      @import url("style.css");
+    </style>
+  </head>
+  <body>
+    <div class="manualnavbar">
+    <table width="100%"><tr>
+      <td width="30%">
+    	<span class="previous"><a href="forwardfill.html">&lt;&lt; forwardfill</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_48867305b02a6b815dc2c7d0d9474fb2.html">CHE3007S_data_science_toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="heatmap.html">heatmap &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+
+
+
+    <span class="path" dir="ltr"><a href="index.html">CHE3007S_data_science_toolbox</a> &gt;&gt; <a href="section_48867305b02a6b815dc2c7d0d9474fb2.html">CHE3007S_data_science_toolbox</a> &gt; group_by</span>
+
+    <br /><br />
+    <div class="refnamediv"><h1 class="refname">group_by</h1>
+    <p class="refpurpose">A function to perform a group by operation. This function groups data according to the unique values in the target column of the data, splits the data according to those groups and applies a function to the split data.</p></div>
+
+
+<div class="refsynopsisdiv"><h3 class="title">Syntax</h3>
+   <div class="synopsis"><pre><span class="default">[</span><span class="default">outputs</span><span class="default">] = </span><span class="functionid">group_by</span><span class="default">(</span><span class="default">header</span><span class="default">, </span><span class="default">data</span><span class="default">, </span><span class="default">sheader</span><span class="default">, </span><span class="default">sdata</span><span class="default">, </span><span class="default">target_column</span><span class="default">, </span><span class="default">fun_name</span><span class="default">)</span></pre></div></div>
+
+<div class="refsection"><h3 class="title">Parameters</h3>
+   <dl><dt><span class="term">header:</span>
+            <dd><p class="para">m x 1 vector of headers for numeric data</p></dd></dt>
+        <dt><span class="term">data:</span>
+            <dd><p class="para">n x m matrix of numeric data, with matrix of column vectors</p></dd></dt>
+        <dt><span class="term">sheader:</span>
+            <dd><p class="para">p x 1 matrix of corresponding headers for string/text data</p></dd></dt>
+        <dt><span class="term">sdata:</span>
+            <dd><p class="para">n x p matrix of string/text data with data as column vectors</p></dd></dt>
+        <dt><span class="term">target_column:</span>
+            <dd><p class="para">Column on which to group the data and calculate the relevant statistics</p></dd></dt>
+        <dt><span class="term">fun_name:</span>
+            <dd><p class="para">function by which to aggregate the data, the options are &#0034;mean&#0034;, &#0034;sum&#0034;, &#0034;min&#0034;, &#0034;max&#0034;, &#0034;stdev&#0034; and &#0034;count&#0034;</p></dd></dt>
+        <dt><span class="term">output:</span>
+            <dd><p class="para">structure containing grouped data for each matrix column, and the corresponding headers and unique groups.</p></dd></dt></dl></div>
+
+<div class="refsection"><h3 class="title">Description</h3>
+   <p class="para">If the data is provided in an n x m matrix, and the group volumn has p unique groups. The output of this function contains the result of applying the desired function to the split groups.
+A structure with the following fields is returned:
+<ul class="itemizedlist"><li><p class="para">data: The result of applying the function to the grouped data, a p x m matrix</p></li>
+<li><p class="para">header: The header data for the data, a 1 x m matrix</p></li>
+<li><p class="para">rows: The unique groups which the data was split into and aggregated, a 1 x p matrix</p></li>
+<li><p class="para">group: a structure with fields of the unique groups, each containing a row vector of data corresponding to the header data</p></li></ul></p>
+   <p class="para"></p></div>
+    <br />
+
+    <div class="manualnavbar">
+    <table width="100%">
+    <tr><td colspan="3" class="next"><a href="http://bugzilla.scilab.org/enter_bug.cgi?product=Scilab%20software&component=Documentation%20pages" class="ulink">Report an issue</a></td></tr>
+<tr>
+      <td width="30%">
+    	<span class="previous"><a href="forwardfill.html">&lt;&lt; forwardfill</a></span>
+
+      </td>
+      <td width="40%" class="center">
+      	<span class="top"><a href="section_48867305b02a6b815dc2c7d0d9474fb2.html">CHE3007S_data_science_toolbox</a></span>
+
+      </td>
+      <td width="30%" class="next">
+      	<span class="next"><a href="heatmap.html">heatmap &gt;&gt;</a></span>
+
+      </td>
+    </tr></table>
+      <hr />
+    </div>
+  </body>
+</html>

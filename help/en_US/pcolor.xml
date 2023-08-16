@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from pcolor.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="pcolor" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>pcolor</refname>
+    <refpurpose>Function to generate a pseudocolor plot with a non-regular rectangular grid.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   pcolor(data)
+   pcolor(data, labels)
+   pcolor(data, labels, direction)
+   pcolor(data, labels, direction, num_points)
+   pcolor(data, labels, direction, num_points, flip)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para>        Matrix of data to be plotted</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>labels:</term>
+            <listitem><para>      Vector of strings to label data points</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>direction:</term>
+            <listitem><para>   Direction to plot along x axis with 'r' or y axis with 'c'</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>num_points:</term>
+            <listitem><para>  The number of points to include on colour map</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>flip:</term>
+            <listitem><para>        Option to flip data on the x axis or not, %f or %t. Default value is %f</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

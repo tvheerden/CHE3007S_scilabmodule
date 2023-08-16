@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ingestCSV.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ingestCSV" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ingestCSV</refname>
+    <refpurpose>Utility function for ingesting and splitting csv data.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [header, data, sheader, sdata] = ingestCSV(file_name, header_rows)
+   [header, data, sheader, sdata] = ingestCSV(file_name, header_rows, datetime_col)
+   [header, data, sheader, sdata] = ingestCSV(file_name, header_rows, datetime_col, datetime_separators)
+   [header, data, sheader, sdata] = ingestCSV(file_name, header_rows, datetime_col, datetime_separators, separator)
+   [header, data, sheader, sdata] = ingestCSV(file_name, header_rows, datetime_col, datetime_separators, separator, decimal)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>header:</term>
+            <listitem><para> 1 x m vector of strings, header of each column of data in the data matrix</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para> n x m matrix of values, each column corresponds to a header</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sheader:</term>
+            <listitem><para> 1 x k vector of strings, header of each column of data in the string data matrix</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para> n x k matrix of string formatted data/labels/tags, each column corresponds to a header in the sheader vector</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>file_name:</term>
+            <listitem><para> a string variable pointing to the location of the csv to be ingested</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>header_rows:</term>
+            <listitem><para> an integer, number of rows at beginning of csv that contain header data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>datetime_col:</term>
+            <listitem><para> an integer, points to the column number that contains datetime data in the csv</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>datetime_separators:</term>
+            <listitem><para> a vector of strings, the separators to be used for splitting the datetime data into year, month, day, etc</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>separator:</term>
+            <listitem><para> a string variable, the separator used in the csv (default [] is ',')</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>decimal:</term>
+            <listitem><para> a string variable, the symbol representing the decimal in the csv data (default [] is '.')</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

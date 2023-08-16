@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from calculate_bins.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="calculate_bins" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>calculate_bins</refname>
+    <refpurpose>A function to calculate the number of bins to be used for a subset of a data source, based on the full dataset provided. The bin width is calculated using the Freedman–Diaconis rule.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   n_bins = calculate_bins(data, data_split)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para> full column vector for data to be binned</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data_split:</term>
+            <listitem><para> subsection of the data which the number of bins will be calculated for</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>n_bins:</term>
+            <listitem><para> number of bins for the data_split value</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

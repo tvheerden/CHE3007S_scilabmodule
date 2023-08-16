@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from pairplot.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="pairplot" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>pairplot</refname>
+    <refpurpose>Function to plot pairwise relatioships within a dataset. A grid will be created with each variable plotted against the other. The diagonals will dispay the frequency distributions of the data, which can be plotted as a histogram or with kernel density estimation of the distribution</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   pairplot(header, data, column, png_name)
+   pairplot(header, data, column, png_name, sheader, sdata)
+   pairplot(header, data, column, png_name, sheader, sdata, hue)
+   pairplot(header, data, column, png_name, sheader, sdata, hue, hue_bin)
+   pairplot(header, data, column, png_name, sheader, sdata, hue, hue_bin, n_points)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>header:</term>
+            <listitem><para>  m x 1 vector of headers for numeric data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para>    n x m matrix of numeric data, with matrix of column vectors</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>column:</term>
+            <listitem><para>  vector of columns indices or header labels which will be plotted</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>png_name:</term>
+            <listitem><para> name for the png file to be exported</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sheader:</term>
+            <listitem><para> p x 1 matrix of corresponding headers for string/text data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sdata:</term>
+            <listitem><para>   n x p matrix of string/text data with data as column vectors</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>hue:</term>
+            <listitem><para>     label of field on which to split the data into different groups and colours for plotting</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>hue_bin:</term>
+            <listitem><para> if hue column is corresponding to a numeric field, this is the the number of bins to split the data into linearly over range, the default for this is 5.</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>n_points:</term>
+            <listitem><para> number of points for the kernel density estimation of the frequency distributions to be estimated over, more points result in a smoother curve. Default is 1000.</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

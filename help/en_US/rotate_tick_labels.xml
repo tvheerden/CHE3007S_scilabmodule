@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from rotate_tick_labels.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="rotate_tick_labels" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>rotate_tick_labels</refname>
+    <refpurpose>Function to rotate the tick labels of an axis using latex</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   rotate_tick_labels(xy)
+   rotate_tick_labels(xy, axis)
+   rotate_tick_labels(xy, axis, rot)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>xy:</term>
+            <listitem><para>      string, 'x' or 'y' axis to be rotated</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>axis:</term>
+            <listitem><para>    axis handle</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>rot:</term>
+            <listitem><para>     angle in degrees to rotate the labels</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>
