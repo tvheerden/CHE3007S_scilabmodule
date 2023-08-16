@@ -9,10 +9,10 @@
 // Unique identifier for this toolbox.
 // It must be alphanumeric, start with a letter and contain neither space
 // nor special characters other than underscore or dash.
-Toolbox: CHE3007S_data_science_toolbox
+Toolbox: CHE3007S
 
 // Human-friendly name for your toolbox
-Title: CHE3007S data science toolbox
+Title: CHE3007S
 
 // One-line description for your toolbox
 Summary: Utility functions for use in data science type work. 
@@ -22,7 +22,7 @@ Summary: Utility functions for use in data science type work.
 // 'major.minor.patch', where all fields are numbers.
 // If you are just starting your toolbox, you should use '0.1' or '0.1.0'.
 // Use '1.0' or '1.0.0' for a tested, good quality first version.
-Version: 0.1.0
+Version: 0.2.0
 
 // Name(s) of the author(s) of this toolbox.
 // They are usually the original copyright holders
