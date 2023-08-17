@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from transform_MinMax.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="transform_MinMax" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>transform_MinMax</refname>
+    <refpurpose>min-max scaling of data</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [data_out, header_out] = transform_standardization(data, header, variables_of_interest)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>data_out:</term>
+            <listitem><para> matrix of values, original data matrix with additional columns containing the scaled data, each column corresponding to a header_out entry</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>header_out:</term>
+            <listitem><para>  row vector of strings, headings for data_out</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para> matrix of values, raw input data</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>header:</term>
+            <listitem><para> row vector of strings, headings of data matrix</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>variables_of_interest:</term>
+            <listitem><para> row vector of strings, identifying the variables for which we will do min-max scaling.</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>
