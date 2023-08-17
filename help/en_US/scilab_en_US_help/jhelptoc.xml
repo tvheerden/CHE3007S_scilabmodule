@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
 <toc version="1.0">
-<tocitem target="index" text="CHE3007S_data_science_toolbox">
-<tocitem target="section_48867305b02a6b815dc2c7d0d9474fb2" text="CHE3007S_data_science_toolbox">
+<tocitem target="index" text="CHE3007S">
+<tocitem target="section_48867305b02a6b815dc2c7d0d9474fb2" text="CHE3007S">
 <tocitem target="backfill" text="backfill"/>
 <tocitem target="bwrcolormap" text="bwrcolormap"/>
 <tocitem target="calculate_bins" text="calculate_bins"/>
@@ -35,6 +35,8 @@
 <tocitem target="split_data" text="split_data"/>
 <tocitem target="tiecorrect" text="tiecorrect"/>
 <tocitem target="train_test_split" text="train_test_split"/>
+<tocitem target="transform_MinMax" text="transform_MinMax"/>
+<tocitem target="transform_standardization" text="transform_standardization"/>
 <tocitem target="zscore" text="zscore"/>
 </tocitem>
 </tocitem>

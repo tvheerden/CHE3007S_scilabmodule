@@ -33,6 +33,8 @@
 <!ENTITY ac1c96e45f07a4189c5194982981044d2 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/en_US/split_data.xml">
 <!ENTITY a6a3617e5e9433f5fc2678d9507cd3695 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/en_US/tiecorrect.xml">
 <!ENTITY af1cf3a7de0041d78497ddb20b42ea1df SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/en_US/train_test_split.xml">
+<!ENTITY a1e1f3a1d7d46d18676e5431242a42188 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/en_US/transform_MinMax.xml">
+<!ENTITY ad56128dfe3cd7e6015ef3c09f27111f8 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/en_US/transform_standardization.xml">
 <!ENTITY a6e066eac0d89e291bc77ef90c00f194a SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/en_US/zscore.xml">
 <!--End Entities-->
 ]>
@@ -44,12 +46,12 @@
       xmlns:mml="http://www.w3.org/1998/Math/MathML"
       xmlns:html="http://www.w3.org/1999/xhtml"
       xmlns:db="http://docbook.org/ns/docbook">
-  <info xml:id='che3007s_data_science_toolbox_manual'>
-    <title>CHE3007S_data_science_toolbox</title>
+  <info xml:id='che3007s_manual'>
+    <title>CHE3007S</title>
   </info>
 
 <part xml:id='section_48867305b02a6b815dc2c7d0d9474fb2'>
-<title>CHE3007S_data_science_toolbox</title>
+<title>CHE3007S</title>
 &a436e55f6805e35c4dcfeca82243f787d;
 &a1191fc1bd30aae550ddc01ecbb637e99;
 &ad5019501d0127f5bc92de278d290f258;
@@ -82,6 +84,8 @@
 &ac1c96e45f07a4189c5194982981044d2;
 &a6a3617e5e9433f5fc2678d9507cd3695;
 &af1cf3a7de0041d78497ddb20b42ea1df;
+&a1e1f3a1d7d46d18676e5431242a42188;
+&ad56128dfe3cd7e6015ef3c09f27111f8;
 &a6e066eac0d89e291bc77ef90c00f194a;
 </part>
 </book>

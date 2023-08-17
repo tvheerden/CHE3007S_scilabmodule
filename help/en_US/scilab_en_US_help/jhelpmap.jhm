@@ -35,5 +35,7 @@
 <mapID target="split_data" url="split_data.html"/>
 <mapID target="tiecorrect" url="tiecorrect.html"/>
 <mapID target="train_test_split" url="train_test_split.html"/>
+<mapID target="transform_MinMax" url="transform_MinMax.html"/>
+<mapID target="transform_standardization" url="transform_standardization.html"/>
 <mapID target="zscore" url="zscore.html"/>
 </map>
