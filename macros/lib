@@ -32,5 +32,7 @@
   <macro name="split_data" file="split_data.bin" md5="175c6fbe10addbc0b19719da6696e705"/>
   <macro name="tiecorrect" file="tiecorrect.bin" md5="58459a7f144d9902c8eafe64f3581c8c"/>
   <macro name="train_test_split" file="train_test_split.bin" md5="d9175e5c694d1441310b6f60803df631"/>
+  <macro name="transform_MinMax" file="transform_MinMax.bin" md5="fff3a57b72c8412588543f2b557d20f5"/>
+  <macro name="transform_standardization" file="transform_standardization.bin" md5="f65d61601011fabcaa01eebaac002f18"/>
   <macro name="zscore" file="zscore.bin" md5="a420935cc6b240d18ac95d4a44db4782"/>
 </scilablib>

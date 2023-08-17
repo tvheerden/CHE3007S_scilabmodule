@@ -7,8 +7,8 @@ mode(-1);
 lines(0);
 
 function main_builder()
-    TOOLBOX_NAME  = "CHE3007S";
-    TOOLBOX_TITLE = "CHE3007S";
+    TOOLBOX_NAME  = "CHE3007S_data_science_toolbox";
+    TOOLBOX_TITLE = "CHE3007S_data_science_toolbox";
     toolbox_dir = get_absolute_file_path("builder.sce");
     tbx_builder_macros(toolbox_dir);
     tbx_builder_help(toolbox_dir);
