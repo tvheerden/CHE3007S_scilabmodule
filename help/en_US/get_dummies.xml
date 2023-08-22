@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from get_dummies.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="get_dummies" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>get_dummies</refname>
+    <refpurpose>One hot encoding function</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [encoded_header, encoded_data]=get_dummies(column, indicators, prefix)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>encoded_header:</term>
+            <listitem><para> row matrix of strings, new header variable including indicators with supplied prefix</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>encoded_data:</term>
+            <listitem><para> matrix of values, original column of data appended with one-hot encoded columns</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

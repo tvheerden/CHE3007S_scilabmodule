@@ -40,13 +40,15 @@ function CHE3007S_data_science_toolbox_lib = startModule()
 
 // Load and add help chapter
 // =============================================================================
-  if or(getscilabmode() == ["NW";"STD"]) then
-    mprintf("\tLoad help\n");
-    path_addchapter = pathconvert(root_tlbx+"/jar");
-    if isdir(path_addchapter) then
-      add_help_chapter(TOOLBOX_NAME, path_addchapter, %T);
+    if or(getscilabmode() == ["NW";"STD"]) then
+        if (verbose_at_startup) then
+            mprintf("\tLoad help\n");
+        end
+        path_addchapter = pathconvert(root_tlbx+"/jar");
+        if ( isdir(path_addchapter) <> [] ) then
+            add_help_chapter(modulename, path_addchapter, %F);
+        end
     end
-  end
 
 // Load demos
 // =============================================================================
