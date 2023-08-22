@@ -1,4 +1,7 @@
 changelog of the CHE3007S_data_science_toolbox
+CHE3007S_data_science_toolbox (1.0.1)
+    * Minor .start bugfix
+ -- Tracey van Heerden <vanheerden.tracey@gmail.com>  Tue, 22 August 2023
 
 CHE3007S_data_science_toolbox (1.0.0)
     * Added help files

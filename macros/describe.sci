@@ -26,15 +26,18 @@ function describe(header, data)
     stdev_val = nanstdev(data, 'r');
     min_val = min(data, 'r');
     max_val = max(data, 'r');
-    
+    per_25 = percentile(data, 25, 'r')
+    per_50 = percentile(data, 50, 'r')
+    per_75 = percentile(data, 75, 'r')
+
     // Process for functions that dont have oriented calculations
     // Preallocate arrays
     col = zeros(n_rows, 1);
     n_unique = zeros(1, n_cols);
     mode_val = zeros(1, n_cols);
-    per_25 = zeros(1, n_cols);
-    per_50 = zeros(1, n_cols);
-    per_75 = zeros(1, n_cols);
+    //per_25 = zeros(1, n_cols);
+    //per_50 = zeros(1, n_cols);
+    //per_75 = zeros(1, n_cols);
     not_nans = zeros(1, n_cols);
     
     for i = 1:n_cols
@@ -47,9 +50,9 @@ function describe(header, data)
         mode_val(i) = mode_value(col);
         
         // Percentile values
-        per_25(i) = perctl(col, 25)(1);
-        per_50(i) = perctl(col, 50)(1);
-        per_75(i) = perctl(col, 75)(1);
+        //per_25(i) = perctl(col, 25)(1);
+        //per_50(i) = perctl(col, 50)(1);
+        //per_75(i) = perctl(col, 75)(1);
         
         // number of nans
         not_nans(i) = n_rows - sum(isnan(col));
