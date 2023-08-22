@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from DurbinWatson.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="DurbinWatson" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>DurbinWatson</refname>
+    <refpurpose>Durbin-Watson statistic</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   DWstat = DurbinWatson(Y, Y_pred)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>Y:</term>
+            <listitem><para> column of values, data that was fitted</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Y_pred:</term>
+            <listitem><para> column of predicted values</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>DWStat:</term>
+            <listitem><para> Durbin-Watson statistic</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

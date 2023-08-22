@@ -71,14 +71,14 @@ if size(labels,2) == 1 then         // single input variable
     // deciles
     xd = gsort(x(:,i), 'g', 'i')
     a = (1:9)'
-    loc = a.*(n+1)./10
+    loc = a.*(nr+1)./10
     x_low = xd(floor(loc))
     x_high = xd(ceil(loc))
     x_int = modulo(loc,1)
     x_deciles = x_low+x_int.*(x_high-x_low)
     
     plot(x_deciles, min(y_p_m_partial)*ones(x_deciles),'k+');
-    xlabel('x_2');
+    xlabel(string(labels));
     ylabel('Partial dependence');
 end
 
@@ -113,8 +113,8 @@ if size(labels,2) == 2 then         // single input variable
     
     scf(), clf()
     contour( x1_range, x2_range, y_p_m, 7)
-    xlabel('x_1');
-    ylabel('x_2');
+    xlabel(string(labels(1)));
+    ylabel(string(labels(2)));
     plot(x_deciles, min(x2_range)*ones(x_deciles),'k+');
 end
 endfunction

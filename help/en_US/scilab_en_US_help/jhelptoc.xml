@@ -2,12 +2,14 @@
 <!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
 <toc version="1.0">
 <tocitem target="index" text="CHE3007S">
-<tocitem target="section_4c560787a3a4bc9fff18fe8242ed3bf6" text="CHE3007S">
+<tocitem target="section_48867305b02a6b815dc2c7d0d9474fb2" text="CHE3007S">
+<tocitem target="DurbinWatson" text="DurbinWatson"/>
 <tocitem target="backfill" text="backfill"/>
 <tocitem target="bwrcolormap" text="bwrcolormap"/>
 <tocitem target="calculate_bins" text="calculate_bins"/>
 <tocitem target="che_boxplot" text="che_boxplot"/>
 <tocitem target="describe" text="describe"/>
+<tocitem target="describe_strings" text="describe_strings"/>
 <tocitem target="dfhead" text="dfhead"/>
 <tocitem target="dfinfo" text="dfinfo"/>
 <tocitem target="dfview" text="dfview"/>
@@ -15,6 +17,7 @@
 <tocitem target="downsample" text="downsample"/>
 <tocitem target="find_indices" text="find_indices"/>
 <tocitem target="forwardfill" text="forwardfill"/>
+<tocitem target="get_dummies" text="get_dummies"/>
 <tocitem target="group_by" text="group_by"/>
 <tocitem target="heatmap" text="heatmap"/>
 <tocitem target="histogram" text="histogram"/>
@@ -22,16 +25,22 @@
 <tocitem target="interpolatedfill" text="interpolatedfill"/>
 <tocitem target="jointplot" text="jointplot"/>
 <tocitem target="kruskal" text="kruskal"/>
+<tocitem target="kurtosis" text="kurtosis"/>
+<tocitem target="kurtosis_test" text="kurtosis_test"/>
 <tocitem target="mode_value" text="mode_value"/>
+<tocitem target="normality" text="normality"/>
 <tocitem target="pairplot" text="pairplot"/>
 <tocitem target="partial_dependance" text="partial_dependance"/>
 <tocitem target="pcolor" text="pcolor"/>
+<tocitem target="percentile" text="percentile"/>
 <tocitem target="permutation_importance" text="permutation_importance"/>
 <tocitem target="plotall" text="plotall"/>
 <tocitem target="rank_data" text="rank_data"/>
 <tocitem target="regression_summary" text="regression_summary"/>
 <tocitem target="rolling_average" text="rolling_average"/>
 <tocitem target="rotate_tick_labels" text="rotate_tick_labels"/>
+<tocitem target="skewness" text="skewness"/>
+<tocitem target="skewness_test" text="skewness_test"/>
 <tocitem target="split_data" text="split_data"/>
 <tocitem target="tiecorrect" text="tiecorrect"/>
 <tocitem target="train_test_split" text="train_test_split"/>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from describe_strings.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="describe_strings" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>describe_strings</refname>
+    <refpurpose>describe string data, similar to describe, but only relevant features. Considering combining into single function in future</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   describe_strings(sheader, sdata)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>sheader:</term>
+            <listitem><para> row vector of strings, names of columns of sdata matrix</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sdata:</term>
+            <listitem><para> matrix of strings, each column corresponding to an sheader</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>
