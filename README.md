@@ -11,7 +11,7 @@ This module is available in scilabs atoms module manager. atomsInstall('CHE3007S
 vanheerden.tracey@gmail.com
 
 ## Authors and acknowledgment
-Dominic de Oliveira
+Dominic De Oliveira, 
 Tracey van Heerden
 
 ## License
