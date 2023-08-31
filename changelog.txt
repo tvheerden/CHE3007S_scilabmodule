@@ -1,4 +1,14 @@
 changelog of the CHE3007S_data_science_toolbox
+
+CHE3007S_data_science_toolbox (1.0.3)
+    * Improvement to plotall function (allow png export)
+    * Fix on dfhead function, defaults of varargin corrected
+
+CHE3007S_data_science_toolbox (1.0.2)
+    * Minor .start bugfix
+    * Inclusion of plotallscatter macro (contributed by Abigail Fraenkel)
+ -- Tracey van Heerden <vanheerden.tracey@gmail.com>  Thu, 24 August 2023
+
 CHE3007S_data_science_toolbox (1.0.1)
     * Minor .start bugfix
  -- Tracey van Heerden <vanheerden.tracey@gmail.com>  Tue, 22 August 2023
