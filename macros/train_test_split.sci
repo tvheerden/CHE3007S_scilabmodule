@@ -47,7 +47,7 @@ function [x_train, x_test, y_train, y_test] = train_test_split(x, y, varargin)
     
     // Sample data
     x_test = x(test_idx, :);
-    y_test = x(test_idx, :);
+    y_test = y(test_idx, :);
     
     // Create mask for non sampled data points
     mask = ones(n_rows, 1);
