@@ -26,6 +26,7 @@
    <synopsis>
    plotall(header, data)
    plotall(header, data, datetime)
+   plotall(header, data, datetime, export)
    
    </synopsis>
 </refsynopsisdiv>
@@ -44,6 +45,10 @@
         <varlistentry>
             <term>datetime:</term>
             <listitem><para> vector of strings to be used as x-axis labels, corresponding to data(:,1)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>export:</term>
+            <listitem><para> boolean variable allowing for image export to png, default is %f</para></listitem>
         </varlistentry>
    </variablelist>
 </refsection>

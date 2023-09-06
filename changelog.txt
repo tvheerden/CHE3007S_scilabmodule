@@ -1,5 +1,16 @@
 changelog of the CHE3007S_data_science_toolbox
 
+CHE3007S_data_science_toolbox (1.1.0)
+    * bugfix error on heatmap function when cmin/cmax not supplied.
+    * correction to train_test_split function
+    * new nearest neighbor utilities: knn_regress; knn_predict; permutation_importance_knn, partial_dependendance_knn
+    * new aggregation utility: cut
+    * new stats utility: R2MSE
+    * improved functionality of group_by
+    * correction to permutation_importance function
+    * new linear regression utilities: partial_dependance_lm, permutation_importance_lm
+ -- Tracey van Heerden <vanheerden.tracey@gmail.com>  Wed, 06 September 2023
+
 CHE3007S_data_science_toolbox (1.0.3)
     * Improvement to plotall function (allow png export)
     * Fix on dfhead function, defaults of varargin corrected

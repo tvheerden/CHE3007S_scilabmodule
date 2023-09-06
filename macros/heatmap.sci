@@ -24,9 +24,9 @@ function heatmap(data, varargin)
     // Define default values
     num_points = 10000;
     colormap = jetcolormap;
-    c_min = [];
-    c_max = [];
     annot = %f;
+    cmin = min(data)
+    cmax = max(data)
     mask = ones(n_cols, n_cols);
     
     // Optional arguments

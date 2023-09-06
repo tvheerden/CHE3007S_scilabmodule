@@ -54,11 +54,12 @@ if size(varargin) > 0 then
 end
 
 y_pred = evstr(sf+'(x'', W, af)');
+SStot = sum((y-mean(y)).^2);
 SSres = sum((y-y_pred').^2);       // residual
 R2_og = 1-SSres/SStot;        // statistic
 
 [nr, nc] = size(x)
-SStot = sum((y-mean(y)).^2);
+
     for i = 1:nc
         for j = 1:repeats
             r_x = grand(1, "prm", (1:nr)'); // random permutation
