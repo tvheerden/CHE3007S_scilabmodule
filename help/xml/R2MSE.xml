@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from R2MSE.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="R2MSE" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>R2MSE</refname>
+    <refpurpose>Function to determine R^2 and RMSE values comparing two equal sized data sets</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [R2, RMSE] = R2MSE(Y, Ypred)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>Y:</term>
+            <listitem><para> vector of values</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Ypred:</term>
+            <listitem><para> vector of values, same size as Y, generally the corresponding predicted values from some model</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>R2:</term>
+            <listitem><para> coefficient of determination</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>RMSE:</term>
+            <listitem><para> Root means square error (standard deviation of residuals)</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

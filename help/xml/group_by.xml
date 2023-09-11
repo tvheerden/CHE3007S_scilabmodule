@@ -76,6 +76,9 @@ A structure with the following fields is returned:
 </itemizedlist>
    </para>
    <para>
+Initialize group and define available functions
+New functions can be provided, as long as they accept 'r','c' inputs
+Wrapper functions can be made to accept 'r','c' and loop through the array
 </para>
 </refsection>
 </refentry>

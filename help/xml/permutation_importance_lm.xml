@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from permutation_importance_lm.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="permutation_importance_lm" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>permutation_importance_lm</refname>
+    <refpurpose>Function to determine permutation importance of knn models, and optionally plot results. based on R2 value.</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [pij, R2] = permutation_importance(x, y, B)
+   [pij, R2] = permutation_importance(x, y, B, repeats)
+   [pij, R2] = permutation_importance(x, y, B, repeats, fig)
+   [pij, R2] = permutation_importance(x, y, B, repeats, fig, labels)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>pij:</term>
+            <listitem><para> n x 1 vector describing overall variable importance</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>R2:</term>
+            <listitem><para> m x repeats matrix of resulting R2 values</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>x:</term>
+            <listitem><para> n x m matrix of input parameters, each column represents a different parameter</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>y:</term>
+            <listitem><para> n x p matrix of target values, each column represents a different variable</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>B:</term>
+            <listitem><para> coefficients of linear model</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>repeats:</term>
+            <listitem><para> integer value determining how many permutations to execute</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>fig:</term>
+            <listitem><para> boolean variable indicating if plots should be made or suppressed, default %f</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>labels:</term>
+            <listitem><para> row vector of strings describing the input variables</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Function to investigate permutation variable importance of trained neural network
+</para>
+</refsection>
+</refentry>

@@ -1,5 +1,13 @@
 changelog of the CHE3007S_data_science_toolbox
 
+CHE3007S_data_science_toolbox (1.1.2)
+    * correction to partial_dependendance_knn function
+ -- Tracey van Heerden <vanheerden.tracey@gmail.com>  Mon, 11 September 2023
+
+CHE3007S_data_science_toolbox (1.1.1)
+    * improvements to downsample function
+ -- Tracey van Heerden <vanheerden.tracey@gmail.com>  Thu, 07 September 2023
+
 CHE3007S_data_science_toolbox (1.1.0)
     * bugfix error on heatmap function when cmin/cmax not supplied.
     * correction to train_test_split function

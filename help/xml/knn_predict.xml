@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from knn_predict.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="knn_predict" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>knn_predict</refname>
+    <refpurpose>Function to determine k nearest neighbors</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [y_pred] = knn_predict(X_train, y_train, X_test)
+   [y_pred] = knn_predict(X_train, y_train, X_test, k)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>X_train:</term>
+            <listitem><para> n x m matrix of training set input parameters, each column represents a different parameter</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>y_train:</term>
+            <listitem><para> n x p matrix of training set target values, each column represents a different variable</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>X_test:</term>
+            <listitem><para> h x m matrix of testing set input parameters, each column represents a different parameter</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>y_pred:</term>
+            <listitem><para> h x p matrix of predicted target values.</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>k:</term>
+            <listitem><para> integer describing number of nearest neighbors, default = 5</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

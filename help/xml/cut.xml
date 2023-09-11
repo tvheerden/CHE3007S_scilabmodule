@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from cut.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="cut" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>cut</refname>
+    <refpurpose>A function to cut data into bins</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [bin_assigned, bin_assigned_s, bins] = cut(data, 'nbins', n)
+   [bin_assigned, bin_assigned_s, bins] = cut(data, 'bins', cut_line)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>bin_assinged:</term>
+            <listitem><para> vector of values indicating which bin the corresponding data point belongs to</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>bin_assigned_s:</term>
+            <listitem><para> vector of strings indicating which bin the corresponding data point belongs to</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>bins:</term>
+            <listitem><para> vector of strings describing the bins</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>cut_line:</term>
+            <listitem><para> vector of values describing the locations of the cuts</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>data:</term>
+            <listitem><para> column vector of values to be cut into bins</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>n:</term>
+            <listitem><para> integer value, describing the number of bins, if 'nbins' specified</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+</refentry>

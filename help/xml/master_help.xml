@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY aefd79c793c0a422b80e8e3805babbc26 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/DurbinWatson.xml">
+<!ENTITY ab4634ff1d3f629786089ba95f00d22ba SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/R2MSE.xml">
+<!ENTITY a6c7a04d4cc0843fb95f109634729fd2b SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/backfill.xml">
+<!ENTITY a4f3daffd012c50e1fb879a001e5f7f72 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/bwrcolormap.xml">
+<!ENTITY a66c101f159ddb0c6e772f8fd9dbda117 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/calculate_bins.xml">
+<!ENTITY a24db63fe3590a477f7785dce547120f0 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/che_boxplot.xml">
+<!ENTITY aa4f21596dbcf2e74062c7928c6f90316 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/cut.xml">
+<!ENTITY a3f0acb7e547d6991fecaf8a2ba5adbf7 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/describe.xml">
+<!ENTITY a3f25f96f4957986e5866d6844493b6a6 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/describe_strings.xml">
+<!ENTITY ae3f9c8a94f334227f7ac878f43e2b709 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/dfhead.xml">
+<!ENTITY ad8d18452f494c049a992b8b1896197e0 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/dfinfo.xml">
+<!ENTITY a822a478e2fd8eb1f4e0bf5d53d5286a6 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/dfview.xml">
+<!ENTITY a55485056f598b913023e65caa553dee0 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/dfview_all.xml">
+<!ENTITY a44563ba386b2a4d21c37cf2e0ac9324a SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/downsample.xml">
+<!ENTITY a865d615b83a0368671375babc882f9d7 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/find_indices.xml">
+<!ENTITY a8fd59658e692d40985428c09911285b0 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/forwardfill.xml">
+<!ENTITY aa0f931b5297610db6193a1b1cd54c94d SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/get_dummies.xml">
+<!ENTITY a535d8ee5f9f94380983881d6904a9149 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/group_by.xml">
+<!ENTITY a038969773ec27556523c821d2f349f30 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/heatmap.xml">
+<!ENTITY a235870f786bff9f55d9270f7ebc6588c SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/histogram.xml">
+<!ENTITY afb376fcd8aea2f3ec87f78270d39a0a7 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/ingestCSV.xml">
+<!ENTITY a4d09bb1f78715948e23c602906f36f93 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/interpolatedfill.xml">
+<!ENTITY af6915fecc74ab74a8d1f1111cb942dfc SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/jointplot.xml">
+<!ENTITY a316dea9d71a6a4271f6a444cc23bb21e SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/knn_predict.xml">
+<!ENTITY a210b2dd39cfd763c90420245fe7c329b SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/knn_regress.xml">
+<!ENTITY a7089c200123cb51201c28144fed14f2f SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/kruskal.xml">
+<!ENTITY ae54896a32776b58f83419d12276d961b SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/kurtosis.xml">
+<!ENTITY a158c266365f70185fe223df58cf79e63 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/kurtosis_test.xml">
+<!ENTITY a0ad9297f016f0a43be3a7588283f6ebd SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/mode_value.xml">
+<!ENTITY aaf8cc1f3511df6f76bb1ec3520ee7534 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/normality.xml">
+<!ENTITY abf6619bce43a088abce7fa01c3db48b4 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/pairplot.xml">
+<!ENTITY a4192f6b7c5d470b27c43c62ae5be4786 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/partial_dependance.xml">
+<!ENTITY ac5c5299d3b66eaeace1aa750cb37c945 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/partial_dependance_knn.xml">
+<!ENTITY ab290ef8ed5f55177682ada3dd816ece5 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/partial_dependance_lm.xml">
+<!ENTITY aefa77da5486e99fb8497c2d9bc9dbc6c SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/pcolor.xml">
+<!ENTITY a94534170d268ec75fb1e778922708798 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/percentile.xml">
+<!ENTITY ad870c56c5fcdb93e01064520e4b0fa33 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/permutation_importance.xml">
+<!ENTITY a32bd5b3d19a598b5355d9f974eb04b76 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/permutation_importance_knn.xml">
+<!ENTITY afc42e9aa4b5d670b7ca1e39cd6cce345 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/permutation_importance_lm.xml">
+<!ENTITY aa8378e0fb3906289363b8af080b4ff19 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/plotall.xml">
+<!ENTITY ad5fc357fa7375198aacb53ebaf545964 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/plotallscatter.xml">
+<!ENTITY abd3c76873e49bb36e1bac57847c0311a SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/rank_data.xml">
+<!ENTITY ac8c464710accea03e33acbf483ae6f68 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/regression_summary.xml">
+<!ENTITY a4c6e5386b69026c8f78c263926798098 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/rolling_average.xml">
+<!ENTITY a070df40932dfcd8f4db874dc9f0eacd8 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/rotate_tick_labels.xml">
+<!ENTITY a825a357e9c4c8dfffec36d59d50c77ed SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/skewness.xml">
+<!ENTITY a311238224a6f572d853215c3980dab5f SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/skewness_test.xml">
+<!ENTITY a4356a05eeaa1f18a574990f3670cd069 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/split_data.xml">
+<!ENTITY aac762b1eba24ad1c1d88b643d2464b01 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/tiecorrect.xml">
+<!ENTITY a3a5ad7c4836f8af7b4b0daa812fd5f3d SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/train_test_split.xml">
+<!ENTITY a0ee4148ef8f50fd7ace4fd61da921429 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/transform_MinMax.xml">
+<!ENTITY a9d1d0a566d9b17a6763c5749a74407ba SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/transform_standardization.xml">
+<!ENTITY a50a81120188898f3d8be2d071e561714 SYSTEM "file:///D:/OneDrive - University of Cape Town/Work/Teaching/CHE3007S/CHE3007S/help/xml/zscore.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_ZA"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='help_chapter_1_manual'>
+    <title>Help chapter 1</title>
+  </info>
+
+<part xml:id='section_2f36e85ee98697a2276a6f333db4393a'>
+<title>Help chapter 1</title>
+&aefd79c793c0a422b80e8e3805babbc26;
+&ab4634ff1d3f629786089ba95f00d22ba;
+&a6c7a04d4cc0843fb95f109634729fd2b;
+&a4f3daffd012c50e1fb879a001e5f7f72;
+&a66c101f159ddb0c6e772f8fd9dbda117;
+&a24db63fe3590a477f7785dce547120f0;
+&aa4f21596dbcf2e74062c7928c6f90316;
+&a3f0acb7e547d6991fecaf8a2ba5adbf7;
+&a3f25f96f4957986e5866d6844493b6a6;
+&ae3f9c8a94f334227f7ac878f43e2b709;
+&ad8d18452f494c049a992b8b1896197e0;
+&a822a478e2fd8eb1f4e0bf5d53d5286a6;
+&a55485056f598b913023e65caa553dee0;
+&a44563ba386b2a4d21c37cf2e0ac9324a;
+&a865d615b83a0368671375babc882f9d7;
+&a8fd59658e692d40985428c09911285b0;
+&aa0f931b5297610db6193a1b1cd54c94d;
+&a535d8ee5f9f94380983881d6904a9149;
+&a038969773ec27556523c821d2f349f30;
+&a235870f786bff9f55d9270f7ebc6588c;
+&afb376fcd8aea2f3ec87f78270d39a0a7;
+&a4d09bb1f78715948e23c602906f36f93;
+&af6915fecc74ab74a8d1f1111cb942dfc;
+&a316dea9d71a6a4271f6a444cc23bb21e;
+&a210b2dd39cfd763c90420245fe7c329b;
+&a7089c200123cb51201c28144fed14f2f;
+&ae54896a32776b58f83419d12276d961b;
+&a158c266365f70185fe223df58cf79e63;
+&a0ad9297f016f0a43be3a7588283f6ebd;
+&aaf8cc1f3511df6f76bb1ec3520ee7534;
+&abf6619bce43a088abce7fa01c3db48b4;
+&a4192f6b7c5d470b27c43c62ae5be4786;
+&ac5c5299d3b66eaeace1aa750cb37c945;
+&ab290ef8ed5f55177682ada3dd816ece5;
+&aefa77da5486e99fb8497c2d9bc9dbc6c;
+&a94534170d268ec75fb1e778922708798;
+&ad870c56c5fcdb93e01064520e4b0fa33;
+&a32bd5b3d19a598b5355d9f974eb04b76;
+&afc42e9aa4b5d670b7ca1e39cd6cce345;
+&aa8378e0fb3906289363b8af080b4ff19;
+&ad5fc357fa7375198aacb53ebaf545964;
+&abd3c76873e49bb36e1bac57847c0311a;
+&ac8c464710accea03e33acbf483ae6f68;
+&a4c6e5386b69026c8f78c263926798098;
+&a070df40932dfcd8f4db874dc9f0eacd8;
+&a825a357e9c4c8dfffec36d59d50c77ed;
+&a311238224a6f572d853215c3980dab5f;
+&a4356a05eeaa1f18a574990f3670cd069;
+&aac762b1eba24ad1c1d88b643d2464b01;
+&a3a5ad7c4836f8af7b4b0daa812fd5f3d;
+&a0ee4148ef8f50fd7ace4fd61da921429;
+&a9d1d0a566d9b17a6763c5749a74407ba;
+&a50a81120188898f3d8be2d071e561714;
+</part>
+</book>

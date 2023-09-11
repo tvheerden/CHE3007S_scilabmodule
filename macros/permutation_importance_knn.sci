@@ -44,7 +44,7 @@ if rhs > 2 then
     end
 end
 
-    y_pred = knn_regress(x, y, K)
+    y_pred = knn_predict(x, y, x, K)
     SStot = sum((y-mean(y)).^2)
     SSres = sum((y-y_pred).^2);       // residual
     R2_og = 1-SSres/SStot;        // statistic
@@ -55,7 +55,7 @@ end
             r_x = grand(1, "prm", (1:nr)'); // random permutation
             x_p = x;
             x_p(:,i) = x(r_x,i);
-            y_p = knn_regress(x_p, y, K)
+            y_p = knn_predict(x, y, x_p, K)
             SSres = sum((y-y_p).^2);       // residual
             R2(j,i) = 1-SSres/SStot;        // statistic
         end
