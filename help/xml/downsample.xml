@@ -24,7 +24,7 @@
 <refsynopsisdiv>
    <title>Syntax</title>
    <synopsis>
-   [dsdata, dsdates] = downsample(data,YMDHms, frequency, method)
+   [dsdata, ds_datetime, ds_datetime_serial] = downsample_v2(data, datetime, separators, frequency, method)
    
    </synopsis>
 </refsynopsisdiv>
@@ -37,12 +37,16 @@
             <listitem><para> n x m matrix of values, downsampled data</para></listitem>
         </varlistentry>
         <varlistentry>
-            <term>dsdatetime:</term>
-            <listitem><para> n x 1 vector of values, downsampled</para></listitem>
+            <term>ds_datetime:</term>
+            <listitem><para> n x 6 matrix of values, downsampled datetime. columns are arranged as [year, month, day, hour, minute, second]</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>ds_datetime_serial:</term>
+            <listitem><para> n x 1 column vector of values, downsampled datetime in serial datetime format.</para></listitem>
         </varlistentry>
         <varlistentry>
             <term>data:</term>
-            <listitem><para> the z parameter   // separated by ":".</para></listitem>
+            <listitem><para> N x m matrix of values, data to be downsamples</para></listitem>
         </varlistentry>
         <varlistentry>
             <term>datetime:</term>
@@ -50,15 +54,15 @@
         </varlistentry>
         <varlistentry>
             <term>separators:</term>
-            <listitem><para> row vector of strings, separators required for splitting datetime</para></listitem>
+            <listitem><para> row vector of strings, all separators required for splitting datetime</para></listitem>
         </varlistentry>
         <varlistentry>
             <term>frequency:</term>
-            <listitem><para> string value, downsampling frequency. Options are minutely, hourly, daily, monthly, annually. Or supply frequency as a vector of values in the format [Years Months Days Hours Minutes Seconds].</para></listitem>
+            <listitem><para> string value, downsampling frequency. Options are minutely, hourly, daily, monthly, annually. OR supply frequency as a vector of values in the format [Years Months Days Hours Minutes Seconds].</para></listitem>
         </varlistentry>
         <varlistentry>
             <term>method:</term>
-            <listitem><para> string variable, mean or median</para></listitem>
+            <listitem><para> string variable, mean, median or stdev</para></listitem>
         </varlistentry>
    </variablelist>
 </refsection>
